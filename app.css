@@ -1,0 +1,29 @@
+body {
+    font-family: "Lato", sans-serif;
+    background: #c2ded1;
+}
+
+#navbar {
+    font-size: 1.5rem;
+    font-weight:5100;
+}
+
+#navbar .nav-link {
+    color: white;
+}
+
+#navbar .nav-link:hover {
+    color: lightcoral;
+}
+
+#navbar .navbar-brand {
+    color: lightcoral;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    #title-head h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
